@@ -24,7 +24,7 @@ Class Solution {
       sb.append(i).append(each);
       if(leave > 0){
         sb.append(" ");
-        sb--;
+        leave--;
       }
     }
     sb.replace(sb.length()-each.length()+1, sb.length()+1, "");
